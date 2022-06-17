@@ -1,0 +1,28 @@
+/*
+ * string_util.h
+ *
+ *  Created on: Jun 1, 2022
+ *      Author: PV
+ */
+
+#ifndef USER_UTIL_STRING_STRING_UTIL_H_
+#define USER_UTIL_STRING_STRING_UTIL_H_
+
+
+
+
+
+#include "stdio.h"
+
+
+
+void string_swap(const char* p_buffer,char* p_msg,const uint8_t len);
+int long_to_string(const uint32_t data,char* s);
+int slong_to_string(const int32_t data,char* s);
+void byte_to_hex_ascii(const uint8_t s,char* hex);
+uint16_t slen(const char *str);
+void string_join(char* dst,const char* str);
+uint32_t string_to_long(char* str);
+
+
+#endif /* USER_UTIL_STRING_STRING_UTIL_H_ */
